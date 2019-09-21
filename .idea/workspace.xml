@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f76720c-9715-46c9-8f26-cc493e7d5a3f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Html" />
+  </component>
+  <component name="ProjectId" id="1Qmpzcaa3tVPzPDGIQlHb5LjtlY" />
+  <component name="PropertiesComponent">
+    <property name="TODO_SCOPE" value="Project Files" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/form.html" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.form.html">
+    <configuration name="Renkler.html" type="JavascriptDebugType" uri="http://localhost:63342/Html/Yorum.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Teklif.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Html/Teklif.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="bicim.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Html/bicim.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="form.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Html/form.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="temel.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Html/temel.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="uygulama.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Html/uygulama.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Renkler.html" />
+      <item itemvalue="JavaScript Debug.bicim.html" />
+      <item itemvalue="JavaScript Debug.form.html" />
+      <item itemvalue="JavaScript Debug.Teklif.html" />
+      <item itemvalue="JavaScript Debug.temel.html" />
+      <item itemvalue="JavaScript Debug.uygulama.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.form.html" />
+        <item itemvalue="JavaScript Debug.Teklif.html" />
+        <item itemvalue="JavaScript Debug.bicim.html" />
+        <item itemvalue="JavaScript Debug.temel.html" />
+        <item itemvalue="JavaScript Debug.uygulama.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f76720c-9715-46c9-8f26-cc493e7d5a3f" name="Default Changelist" comment="" />
+      <created>1568385888657</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568385888657</updated>
+      <workItem from="1568385893942" duration="3378000" />
+      <workItem from="1568390391313" duration="45000" />
+      <workItem from="1568404402258" duration="247000" />
+      <workItem from="1568405694208" duration="55000" />
+      <workItem from="1568407310714" duration="646000" />
+      <workItem from="1568464251217" duration="247000" />
+      <workItem from="1568464539404" duration="1639000" />
+      <workItem from="1568476240450" duration="315000" />
+      <workItem from="1568476838687" duration="2884000" />
+      <workItem from="1568496465685" duration="3100000" />
+      <workItem from="1568499723668" duration="88000" />
+      <workItem from="1568500015351" duration="290000" />
+      <workItem from="1568500342232" duration="153000" />
+      <workItem from="1568500695988" duration="334000" />
+      <workItem from="1568501063804" duration="1118000" />
+      <workItem from="1568502302106" duration="409000" />
+      <workItem from="1568502758654" duration="157000" />
+      <workItem from="1568502952664" duration="38000" />
+      <workItem from="1568503046233" duration="32000" />
+      <workItem from="1568503191364" duration="557000" />
+      <workItem from="1568539804445" duration="1020000" />
+      <workItem from="1568562134759" duration="353000" />
+      <workItem from="1568574857256" duration="2800000" />
+      <workItem from="1568578435519" duration="866000" />
+      <workItem from="1568579386829" duration="20000" />
+      <workItem from="1568579454026" duration="193000" />
+      <workItem from="1568582400900" duration="279000" />
+      <workItem from="1568582737280" duration="329000" />
+      <workItem from="1568583112114" duration="164000" />
+      <workItem from="1568583319106" duration="971000" />
+      <workItem from="1568584296671" duration="27000" />
+      <workItem from="1568584378401" duration="533000" />
+      <workItem from="1568585345923" duration="23000" />
+      <workItem from="1568630584822" duration="3177000" />
+      <workItem from="1568644138058" duration="3049000" />
+      <workItem from="1569023982492" duration="1100000" />
+      <workItem from="1569025175408" duration="344000" />
+      <workItem from="1569025669735" duration="288000" />
+      <workItem from="1569057170981" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
