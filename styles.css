@@ -1,0 +1,35 @@
+/*
+styleSatır içi stil için HTML özelliğini kullanın
+<style>Dahili CSS'yi tanımlamak için HTML öğesini kullanın
+<link>Harici bir CSS dosyasına başvurmak için HTML öğesini kullanın
+<head><style> ve <link> öğelerini saklamak için HTML öğesini kullanın
+ colorMetin renkleri için CSS özelliğini kullanın
+ font-familyMetin yazı tipleri için CSS özelliğini kullanın
+ font-sizeMetin boyutları için CSS özelliğini kullanın
+ borderKenarlıklar için CSS özelliğini kullanın
+ paddingKenarlığın içindeki boşluk için CSS özelliğini kullanın.
+margin Kenarlığın dışındaki boşluk için CSS özelliğini kullanın.
+*/
+
+h1{color: navy;
+background-color: aqua;
+}
+h2{
+    color: blueviolet;
+    font-family:cursive;
+    font-size: 300%;
+    border: 2px solid powderblue;
+    padding: 30px;
+    margin: 50px;
+}
+/*Sınıf olarak verme*/
+p.error{
+
+    color: red;
+
+}
+/*  id olarak verme*/
+#p01{
+    color: blue;
+
+}

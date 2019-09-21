@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+/*
+Kenarlıkların bir kenarlığa daralmasını istiyorsanız,
+CSS border-collapse özelliğini ekleyin :
+Hücre Dolgusu Ekleme
+Hücre dolgusu, hücre içeriği ile sınırları arasındaki boşluğu belirtir.
+
+Bir dolgu belirtmezseniz, masa hücreleri dolgu olmadan görüntülenir.
+
+Dolgu ayarlamak için CSS paddingözelliğini kullanın :
+Hücre dolgusu, hücre içeriği ile sınırları arasındaki boşluğu belirtir.
+Hucreler arası boşluk  bordor-spacing ile yapılır
+*/
+      table,th,td{
+  border: 1px solid red;
+  //border-collapse: collapse;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+      }
+      th , td {
+        padding: 15px;
+      }
+      table{
+        border-spacing: 5px;
+      }
+    </style>
+
+  </head>
+  <body>
+  <!--
+  <table>Etiketi ile bir HTML tablosu tanımlanır .
+
+Her tablo satırı <tr>etiketi ile tanımlanır .
+<th>Etiketi ile birlikte bir tablo başlığı tanımlanır .
+ Varsayılan olarak, tablo başlıkları kalın ve ortalanmıştır.
+ Bir tablo verisi / hücresi <td>etiketi ile tanımlanır .
+Not:<td> elementler tablosunun veri kaplardır.
+Her türlü HTML öğesini içerebilirler; metin, resimler, listeler, diğer tablolar vb.
+Bir hücrenin birden fazla satırdan yayılması için, rowspanniteliği kullanın
+  Tabloya başlık ekleme <caption> etiketi kullanılır
+  -->
+<table>
+  <tr>
+    <th>İsim</th>
+    <th>Soyad</th>
+    <th>Yas</th>
+  </tr>
+  <tr>
+    <td>Mehmet</td>
+    <td>uygun</td>
+    <td>36</td>
+
+  </tr>
+  <td>Kubra</td>
+  <td>Uygun</td>
+  <td>32</td>
+</table>
+  <table>
+    <caption>Bill Gates</caption>
+    <tr>
+      <th>name</th>
+      <td>bill</td>
+    </tr>
+    <tr>
+      <th rowspan="2">Telephone</th>
+      <td>55577854</td>
+    </tr>
+    <tr>
+      <td>55577855</td>
+    </tr>
+  </table>
+  <!--
+  <table>Tablo tanımlamak için HTML öğesini kullanın
+<tr>Bir tablo satırı tanımlamak için HTML öğesini kullanın
+<td>Tablo verilerini tanımlamak için HTML öğesini kullanın
+<th>Bir tablo başlığı tanımlamak için HTML öğesini kullanın
+<caption>Tablo başlığını tanımlamak için HTML öğesini kullanın
+borderKenarlık tanımlamak için CSS özelliğini kullanın.
+border-collapseHücre kenarlıklarını daraltmak için CSS özelliğini kullanın
+paddingHücrelere dolgu eklemek için CSS özelliğini kullanın
+text-alignHücre metnini hizalamak için CSS özelliğini kullanın
+border-spacingHücreler arasındaki boşluğu ayarlamak için CSS özelliğini kullanın.
+colspanBir hücrenin birçok sütuna yayılması için niteliği kullanın
+rowspanBir hücreyi birçok satıra yaymak için niteliği kullanın
+idBir tabloyu benzersiz bir şekilde tanımlamak için niteliği kullanın
+
+  -->
+  </body>
+</html>
