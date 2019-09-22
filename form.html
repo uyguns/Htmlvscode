@@ -1,10 +1,11 @@
 <!DOCTYPE html>
- 
-       
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-        <!--
+
+
+<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!--
             input en önemli formunsurudur.
             type özelliği ile kullanılır.
  text   -tek satırlık metin giriş alanı icin 
@@ -13,74 +14,76 @@
 
 
         -->
-<form>
-    <input type="text">
-    <input type="radio">
-    <input type="submit">
-</form>
-      <form>
-          First Name:<br>
-        <input  type="text" name="First Name"><br>
+    <form>
+        <input type="text">
+        <input type="radio">
+        <input type="submit">
+    </form>
+    <form>
+        First Name:<br>
+        <input type="text" name="First Name"><br>
         Last Name:<br>
         <input type="text" name="Last Name"><br>
         Number:<br>
         <input type="Number" name="Number"><br>
         <form>
             <h2>Radio Button</h2>
-                <input type="radio" name="gender" value="male" >Erkek<br>
-                <input type="radio" name="gender" value="Female" >Kadın<br>
-                <input type="radio" name="gender" value="ther">Other<br>
-                
-        </form>     
+            <input type="radio" name="gender" value="male">Erkek<br>
+            <input type="radio" name="gender" value="Female">Kadın<br>
+            <input type="radio" name="gender" value="ther">Other<br>
+
+        </form>
         <!--Gönder Dümesi
     form action ile formun gönderileceği yer belirtilir.    <input type="submit">Form verilerini bir form işleyicisine göndermek için bir düğme tanımlar .
         ctionÖzelliği, form gönderildiğinde eylem gerçekleştirilebilir tanımlar.
 
 Normalde, form verisi kullanıcı gönder düğmesine tıkladığında sunucudaki bir web sayfasına gönderilir.
     -->
-<form action="#">
-    <h2>Lutfen Formu Doldurun</h2>
-<input type="text" name="firsname" value="İsim"><br>
-<input type="text" name="lastname" value="Soyad"><br>
-<input type="submit" value="submit">
-</form>
-<!--HEDEF ÖZELLİĞİ-->
+        <form action="#">
+            <h2>Lutfen Formu Doldurun</h2>
+            <input type="text" name="firsname" value="İsim"><br>
+            <input type="text" name="lastname" value="Soyad"><br>
+            <input type="submit" value="submit">
+        </form>
+        <!--HEDEF ÖZELLİĞİ-->
 
-<h2>Hedef Nitelik</h2>
-<p>BU formu gönderirken sonuç yeni bir tarayıcı 
-    sekmesinde açılacaktır.
-göndere tıkladığımız zaman iframe.html açılır.
-targetTarafından gönderilen sonuç yeni bir tarayıcı sekmesi, bir çerçeve içinde açabilir veya mevcut pencerede eğer niteliği belirler.
+        <h2>Hedef Nitelik</h2>
+        <p>BU formu gönderirken sonuç yeni bir tarayıcı
+            sekmesinde açılacaktır.
+            göndere tıkladığımız zaman iframe.html açılır.
+            targetTarafından gönderilen sonuç yeni bir tarayıcı sekmesi, bir çerçeve içinde açabilir veya mevcut
+            pencerede eğer niteliği belirler.
 
-Varsayılan değer " _self" şeklindedir; bu, formun geçerli pencerede gönderileceği anlamına gelir.
+            Varsayılan değer " _self" şeklindedir; bu, formun geçerli pencerede gönderileceği anlamına gelir.
 
-Form sonucunu yeni bir tarayıcı sekmesinde açmak için " _blank" değerini kullanın
+            Form sonucunu yeni bir tarayıcı sekmesinde açmak için " _blank" değerini kullanın
 
 
-</p>
-<form action="Renk.html" target="_target"><br><br>
-    
-    <input type="text" name="isim" value="İsim"><br><br>
-    
-    <input type="text" name="soyad" value="soyad"><br><br>
-    
-    <input type="submit" value="Gonder"><br>
-</form>
-<!--
+        </p>
+        <form action="Renk.html" target="_target"><br><br>
+
+            <input type="text" name="isim" value="İsim"><br><br>
+
+            <input type="text" name="soyad" value="soyad"><br><br>
+
+            <input type="submit" value="Gonder"><br>
+        </form>
+        <!--
     formları >fieldset> ile gruplama
     Formun etrafını çizer
     legend ile başlık yazılır.
 -->
-<form action="Renk.html" >
-<fieldset style="width: 200px; height: 200px">
-    <legend>Öznitelik adı</legend>
-<input type="text" name="isim"><br><br>
-isim:<br><br>
-<input type="text" name="soyad"><br><br>
-soyad:<br><br>
-<input type="submit" value="submit"><br><br>
-<input type="button"  value="button">
-</fieldset>
-</form>
+        <form action="Renk.html">
+            <fieldset style="width: 200px; height: 200px">
+                <legend>Öznitelik adı</legend>
+                <input type="text" name="isim"><br><br>
+                isim:<br><br>
+                <input type="text" name="soyad"><br><br>
+                soyad:<br><br>
+                <input type="submit" value="submit"><br><br>
+                <input type="button" value="button">
+            </fieldset>
+        </form>
 </body>
+
 </html>
