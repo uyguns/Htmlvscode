@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <style>
-.yatay {
-  display: inline;
-  background-color: black;
-  color: white;
-  list-style-type: none;
-  padding: .3em 2em;
-/ / padding ile listeler arasını açıyoruz / / 2 em ile listeler arsını açıyoruz .3 em ile arka planı açıyoruz
-}
-      a:link{
-        color: white;
-        text-decoration: none;
-      }
-      a:hover{
-        color: darkgray;
-        text-decoration: none;
 
-      }
-      a:visited{
-        color: white;
-        text-decoration: none;
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    .yatay {
+      display: inline;
+      background-color: black;
+      color: white;
+      list-style-type: none;
+      padding: .3em 2em;
+      / / padding ile listeler arasını açıyoruz / / 2 em ile listeler arsını açıyoruz .3 em ile arka planı açıyoruz
+    }
 
-      }
+    a:link {
+      color: white;
+      text-decoration: none;
+    }
 
-    </style>
-  </head>
+    a:hover {
+      color: darkgray;
+      text-decoration: none;
+
+    }
+
+    a:visited {
+      color: white;
+      text-decoration: none;
+
+    }
+  </style>
+</head>
 
 <body>
   <!--Numarasız listeler
@@ -41,12 +44,12 @@ square	  Liste öğesi işaretleyicisini kareye ayarlar.
 none	    Liste öğeleri işaretlenmeyecek
 
 -->
-<ul style="list-style-type: circle">
-  <li>coffee</li>
-  <li>Tea</li>
-  <li>milk</li>
-</ul>
-<!--NUMARALI LİSTELER
+  <ul style="list-style-type: circle">
+    <li>coffee</li>
+    <li>Tea</li>
+    <li>milk</li>
+  </ul>
+  <!--NUMARALI LİSTELER
 <ol>  <li> etiketi ile yapılır.
 type="1"	Sayılar
 type="A"	Buyuk Harf
@@ -54,77 +57,77 @@ type="a"	Kucuk Harf
 type="I"	buyuk roma no
 type="i"	Kucuk Roma numaraları
 -->
-<ol type="I">
-  <li>caffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>
-<!--LİSTELERİ AÇIKLAMAK ıcın
+  <ol type="I">
+    <li>caffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+  <!--LİSTELERİ AÇIKLAMAK ıcın
 <dl> açıklama listesi tanımlar etiket terimi (ad) tanımlar
  <dt>Acıklanacak madde örneğin cay
  <dd>  acıklama
 -->
-<dl>
-  <dt>Cay</dt>
-  <dd>Sıcak İcecek</dd>
-  <dt>Cola</dt>
-  <dd>oguk İcecek</dd>
-</dl>
-<!--
+  <dl>
+    <dt>Cay</dt>
+    <dd>Sıcak İcecek</dd>
+    <dt>Cola</dt>
+    <dd>oguk İcecek</dd>
+  </dl>
+  <!--
 İC İCE LİSTELER
 
 normal listeleri ul ile yapıyoruz
 alt menuleri ul atiketini alt menüden sonra kapatıyoruz
 -->
-<ul>
-  <li>Caffee</li>
-  <li>Tea</li>
   <ul>
-    <li>Black Tea</li>
-    <li>Green Tea</li>
+    <li>Caffee</li>
+    <li>Tea</li>
+    <ul>
+      <li>Black Tea</li>
+      <li>Green Tea</li>
+    </ul>
+    </li>
+    <li>Milk</li>
+    <ul>
+      <li>Sıcacık</li>
+    </ul>
   </ul>
-  </li>
-  <li>Milk</li>
-  <ul>
-    <li>Sıcacık</li>
-  </ul>
-</ul>
 
-<ol type="I">
-  <li>Bilgisayar</li>
-  <ol>
-    <li>Güvenlik</li>
-    <li>Yazılım</li>
+  <ol type="I">
+    <li>Bilgisayar</li>
+    <ol>
+      <li>Güvenlik</li>
+      <li>Yazılım</li>
+    </ol>
+    <li>Telephone</li>
+    <ol>
+      <li>Android</li>
+      <li>I Phone</li>
+    </ol>
+    <li>Tablet</li>
   </ol>
-  <li>Telephone</li>
-  <ol>
-    <li>Android</li>
-    <li>I Phone</li>
-  </ol>
-  <li>Tablet</li>
-</ol>
-<!--
+  <!--
 Varsayılan olarak, sıralı bir liste 1'den saymaya başlayacaktır.
  Belirtilen bir numaradan saymaya başlamak istiyorsanız,
  start   niteliği kullanabilirsiniz
  Asagida 20 den itibaren baslattik.
 -->
-<ol start="20">
-  <li>Tea</li>
-  <li>Caffee</li>
-  <li>Milk</li>
-</ol>
-<!--YATAY   LİSTELEME
+  <ol start="20">
+    <li>Tea</li>
+    <li>Caffee</li>
+    <li>Milk</li>
+  </ol>
+  <!--YATAY   LİSTELEME
 float:left veya display:inline  yatay bir listesini görüntülemek için
 
 Lİstelere aşağıdaki gibi link verilir-->
-<ul class="yatay">
-  <li class="yatay"><a href="table.html"> Home</a></li>
-  <li class="yatay">News</li>
-  <li class="yatay">Contact</li>
-  <li class="yatay">About</li>
-</ul>
-<!--
+  <ul class="yatay">
+    <li class="yatay"><a href="table.html"> Home</a></li>
+    <li class="yatay">News</li>
+    <li class="yatay">Contact</li>
+    <li class="yatay">About</li>
+  </ul>
+  <!--
 BOLUM OZETI
 
 <ul>  Sırasız bir liste tanımlamak için HTML öğesini kullanın
@@ -143,5 +146,6 @@ Padding listeler arasını acar
 text-decaration none yapılırsa çizgi kalkar
 -->
 
-  </body>
+</body>
+
 </html>

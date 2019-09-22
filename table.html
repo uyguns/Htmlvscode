@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <style>
-/*
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    /*
 Kenarlıkların bir kenarlığa daralmasını istiyorsanız,
 CSS border-collapse özelliğini ekleyin :
 Hücre Dolgusu Ekleme
@@ -16,23 +17,29 @@ Dolgu ayarlamak için CSS paddingözelliğini kullanın :
 Hücre dolgusu, hücre içeriği ile sınırları arasındaki boşluğu belirtir.
 Hucreler arası boşluk  bordor-spacing ile yapılır
 */
-      table,th,td{
-  border: 1px solid red;
-  //border-collapse: collapse;
-  width: 200px;
-  height: 30px;
-  text-align: center;
-      }
-      th , td {
-        padding: 15px;
-      }
-      table{
-        border-spacing: 5px;
-      }
-    </style>
+    table,
+    th,
+    td {
+      border: 1px solid red;
+      //border-collapse: collapse;
+      width: 200px;
+      height: 30px;
+      text-align: center;
+    }
 
-  </head>
-  <body>
+    th,
+    td {
+      padding: 15px;
+    }
+
+    table {
+      border-spacing: 5px;
+    }
+  </style>
+
+</head>
+
+<body>
   <!--
   <table>Etiketi ile bir HTML tablosu tanımlanır .
 
@@ -45,22 +52,22 @@ Her türlü HTML öğesini içerebilirler; metin, resimler, listeler, diğer tab
 Bir hücrenin birden fazla satırdan yayılması için, rowspanniteliği kullanın
   Tabloya başlık ekleme <caption> etiketi kullanılır
   -->
-<table>
-  <tr>
-    <th>İsim</th>
-    <th>Soyad</th>
-    <th>Yas</th>
-  </tr>
-  <tr>
-    <td>Mehmet</td>
-    <td>uygun</td>
-    <td>36</td>
+  <table>
+    <tr>
+      <th>İsim</th>
+      <th>Soyad</th>
+      <th>Yas</th>
+    </tr>
+    <tr>
+      <td>Mehmet</td>
+      <td>uygun</td>
+      <td>36</td>
 
-  </tr>
-  <td>Kubra</td>
-  <td>Uygun</td>
-  <td>32</td>
-</table>
+    </tr>
+    <td>Kubra</td>
+    <td>Uygun</td>
+    <td>32</td>
+  </table>
   <table>
     <caption>Bill Gates</caption>
     <tr>
@@ -91,5 +98,6 @@ rowspanBir hücreyi birçok satıra yaymak için niteliği kullanın
 idBir tabloyu benzersiz bir şekilde tanımlamak için niteliği kullanın
 
   -->
-  </body>
+</body>
+
 </html>
