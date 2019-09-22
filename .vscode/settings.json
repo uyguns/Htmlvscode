@@ -1,4 +1,6 @@
 {
     "files.autoSave": "afterDelay",
-    "editor.fontSize": 16
+    "editor.fontSize": 16,
+    "workbench.colorTheme": "Kinda Monokai Dark",
+    "workbench.iconTheme": "vscode-icons"
 }
