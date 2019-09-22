@@ -1,71 +1,74 @@
 <!DOCTYPE html>
 
-    <head>
-        <meta charset="utf-8">
-      
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <p>Giris tipi sifresi</p>
-        <p>action ile yapılan girişlerin nereye atılacağını ifade eder</p>
-        <form action="form.html">
-            user name:<br>
-            <input type="text" name="username"><br>
-            user password:<br>
-            <input type="password" name="psw"><br>
-            <input type="submit"  name="submit">
-            <p>input type="reset" Tüm form değerlerini varsayılan değerlerine sıfırlayacak bir sıfırlama düğmesi tanımlar :</p>
-        </form>
-        <form action="form.html">
-            user name:<br>
-            <input type="text" name="username"><br>
-            user password:<br>
-            <input type="password" name="psw"><br>
-            <input type="submit"  name="submit">
-            <input type="reset">
-            </form>
-        <p>  input type="checkbox"  Bir onay kutusu tanımlar .
+<head>
+    <meta charset="utf-8">
 
-            Onay kutuları, kullanıcının sınırlı sayıda seçeneğin SIFIR veya DAHA FAZLA seçeneklerini seçmesine izin verir.</p>
-        <form>  Hangi işletim sistemini kullanıyorsunuz:<br>
-            <input type="checkbox" name="Windows" value="Windows">Windows<br>
-            <input type="checkbox" name="MacOs" value="Mac Os">Mac Os<br>
-            <input type="checkbox" name="Lİnux" value="Lİnux">Lİnux<br>
-            <input  type="submit" value="Gönder">
-        </form>
+    <link rel="stylesheet" href="">
+</head>
 
-        <p>Giriş tipi düğmesi</p>
-        <p> input type="button" ile yapılır</p>
-        <form>
-            <input type="button" value="Tıkla">
-        </form>
-        <form>
+<body>
+    <p>Giris tipi sifresi</p>
+    <p>action ile yapılan girişlerin nereye atılacağını ifade eder</p>
+    <form action="form.html">
+        user name:<br>
+        <input type="text" name="username"><br>
+        user password:<br>
+        <input type="password" name="psw"><br>
+        <input type="submit" name="submit">
+        <p>input type="reset" Tüm form değerlerini varsayılan değerlerine sıfırlayacak bir sıfırlama düğmesi tanımlar :
+        </p>
+    </form>
+    <form action="form.html">
+        user name:<br>
+        <input type="text" name="username"><br>
+        user password:<br>
+        <input type="password" name="psw"><br>
+        <input type="submit" name="submit">
+        <input type="reset">
+    </form>
+    <p> input type="checkbox" Bir onay kutusu tanımlar .
+
+        Onay kutuları, kullanıcının sınırlı sayıda seçeneğin SIFIR veya DAHA FAZLA seçeneklerini seçmesine izin verir.
+    </p>
+    <form> Hangi işletim sistemini kullanıyorsunuz:<br>
+        <input type="checkbox" name="Windows" value="Windows">Windows<br>
+        <input type="checkbox" name="MacOs" value="Mac Os">Mac Os<br>
+        <input type="checkbox" name="Lİnux" value="Lİnux">Lİnux<br>
+        <input type="submit" value="Gönder">
+    </form>
+
+    <p>Giriş tipi düğmesi</p>
+    <p> input type="button" ile yapılır</p>
+    <form>
+        <input type="button" value="Tıkla">
+    </form>
+    <form>
         <p>Giriş tipi rengi</p>
         <p>input type="color" name="favcolor" olarak kullanılır.</p>
         favari rengin hangisi:<br>
         <input type="color" name="favcolor">
     </form>
     <form>
-<P>Giriş türü Tarih</P>
-<input type="date" name="bday">
+        <P>Giriş türü Tarih</P>
+        <input type="date" name="bday">
 
-<p>Giriş Türü Datetime-local</p>
-<p> input type="datetime-local"  Saat dilimi olmayan bir tarih ve saat giriş alanı belirtir.</p>
+        <p>Giriş Türü Datetime-local</p>
+        <p> input type="datetime-local" Saat dilimi olmayan bir tarih ve saat giriş alanı belirtir.</p>
 
-<input type="datetime-local" name="bdaytime">
+        <input type="datetime-local" name="bdaytime">
     </form>
-<form>
-    <p>input type="email"  Bir e-posta adresini içermelidir giriş alanları için kullanılmaktadır.</p>
-    E-Mail:
-    <input type="email" name="e-mail">   
-    </form> 
     <form>
-    <p>input type="file" Bir dosya seçme alanını ve dosya yüklemeleri için bir "Gözat" düğmesini tanımlar.</p>
-    Bir dosya secin:<br>
-    <input type="file" name="myfile">
+        <p>input type="email" Bir e-posta adresini içermelidir giriş alanları için kullanılmaktadır.</p>
+        E-Mail:
+        <input type="email" name="e-mail">
+    </form>
+    <form>
+        <p>input type="file" Bir dosya seçme alanını ve dosya yüklemeleri için bir "Gözat" düğmesini tanımlar.</p>
+        Bir dosya secin:<br>
+        <input type="file" name="myfile">
 
-    <p>Giriş türü ay</p>
-    <p>Kullanıcı bir ay ve yıl seçmenize olanak sağlar.</p>
+        <p>Giriş türü ay</p>
+        <p>Kullanıcı bir ay ve yıl seçmenize olanak sağlar.</p>
         <input type="month">
 
         <p> input type="number" Bir tanımlayan sayısal bir giriş alanı.</p>
@@ -74,12 +77,12 @@
     </form>
     <form>
         <p>Giriş tipi aralığı</p>
-        <p>input type="range"  ile yapılır.</p>
+        <p>input type="range" ile yapılır.</p>
         <input type="range" min="0" max="80">
         <p>Giriş tipi arama</p>
         <p> input type="search" (Bir arama alanı normal bir metin alanı gibi davranır) </p>
-        </form>
-        <form action="https://www.google.com.tr/">
+    </form>
+    <form action="https://www.google.com.tr/">
         Search Google:
         <input type=" search" name="googlesearch"><br>
         Ara:
@@ -90,11 +93,11 @@
         <p>input type="tel" olarak kullanılır. </p>
         Lütfen tel Giriniz:<br>
         <input type="tel">
-        <p>Giriş tipi zamanı  saat dilimi</p>
+        <p>Giriş tipi zamanı saat dilimi</p>
         <input type="time">
         <p>Giriş tipi "url" si</p>
         Anasayfanızı ekleyin:<br>
-        
+
         <input type="https://www.google.com.tr" name="homepage">
         <input type="submit" value="Ekle">
 
@@ -102,4 +105,5 @@
     </form>
 
 </body>
+
 </html>
