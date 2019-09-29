@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+        /*p {
+            margin-top: 50px;
+            margin-right: 150px;
+            margin-bottom: 70px;
+            margin-left: 225px;
+        }*/
+        /* margin özelliklerinin tek satırda yazılması*/
+        
+        p {
+            margin: 50px 150px 70px 225px;
+        }
+        /*  alt ve üst aynı ise vaya sağ ve sol aynı ise sadece 2 tane yazılabilir.*/
+        
+        .ex1 {
+            margin: 150px 50px;
+        }
+        /*margin auto  kabı syafaya ortalar*/
+        
+        .ex2 {
+            width: 300px;
+            margin: auto;
+            border: 1px solid red;
+        }
+        
+        div {
+            border: 1px solid blue;
+            margin-left: 100px;
+        }
+        
+        p.ex3 {
+            margin: inherit;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+   1-- margin kenar boşluğu verir
+    a-margin-top  yukarıdan kebar boşluğu
+    b-margin-right sağdan kenar boşluğu
+    c-margin-bottom aşağıdan kenar boşluğu
+    d-margin-left   soldan kenar boşluğu
+    
+2--  kulanılacak birimler
+    a-auto
+    b-px,pt,cm,etc
+    c-%
+    d-inherit  devralmak   kenar boşluğunu ana öğeden devir alır.
+3--  negatif değerlere izin verilir
+4-- margin kısa yazabiliriz.   -sıra:  üst  -sağ -alt- sol
+5-- üst alt ve sağ sol olarak iki değer verebiliriz. 
+6--  auto ile  Margin özelliğini , öğeyi kabında yatay olarak ortalayacak şekilde ayarlayabilirsiniz .
+ 
+-->
+
+
+    <p>merhaba</p>
+    <p class="ex1">hello world</p>
+    <p class="ex2">This div will be horizontally centered because it has margin: auto;</p>
+    <div>
+        <p class="ex3"> hello dunya</p>
+        <!--burada p nin class 3  css i div den margin left i aldı ve kullandı-->
+    </div>
+</body>
+
+
+</html>
