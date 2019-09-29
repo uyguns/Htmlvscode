@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title></title>
+
+    <link rel="stylesheet" href="">
+    <style>
+        .dotted {
+            border-style: dotted;
+        }
+        
+        .dashed {
+            border-style: dashed;
+        }
+        
+        .solid {
+            border-style: solid;
+        }
+        
+        .double {
+            border-style: double;
+        }
+        
+        .groove {
+            border-style: groove;
+        }
+        
+        .ridge {
+            border-style: ridge;
+        }
+        
+        .inset {
+            border-style: inset;
+        }
+        
+        .outset {
+            border-style: outset;
+        }
+        
+        .none {
+            border-style: none;
+        }
+        
+        .hidden {
+            border-style: hidden;
+        }
+        
+        .ayrı {
+            border-top-style: dotted;
+            border-bottom-style: solid;
+            border-right-style: dashed;
+            border-left-style: groove;
+        }
+        
+        .one {
+            border-style: solid;
+            border-width: 5px;
+        }
+        
+        .two {
+            border-style: solid;
+            border-width: medium;
+        }
+        
+        .tree {
+            border-style: solid;
+            border-width: 1px 5px 6px 10px;
+        }
+        
+        .color {
+            border-style: solid;
+            border-color: darkblue;
+        }
+        
+        .short {
+            border: 5px solid green;
+        }
+        
+        .radius {
+            border: 2px solid red;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+    1--border-style cizgilerin nasıl olacağını belirtir.
+Aşağıdaki değerlere izin verilir:
+   ◇ dotted - Noktalı kenarlığı tanımlar
+   ◇ dashed - Kesikli bir sınır tanımlar.
+   ◇ solid - Sağlam bir sınır tanımlar
+   ◇ double - İkili kenarlık tanımlar
+   ◇ groove- 3B yivli kenarlığı tanımlar. Etki, kenarlık rengi değerine bağlıdır
+   ◇ ridge- 3B çıkıntılı kenarlığı tanımlar. Etki, kenarlık rengi değerine bağlıdır
+   ◇ inset- 3B iç metin kenarlığını tanımlar. Etki, kenarlık rengi değerine bağlıdır
+   ◇ outset- 3B başlangıç ​​kenarlığını tanımlar. Etki, kenarlık rengi değerine bağlıdır
+   ◇ none - Sınır tanımaz
+   ◇ hidden - Gizli bir sınır tanımlar.
+
+2--kenarlara ayrı ayrı stil verir
+    a-border-top-style:dotted;
+     b-border-right-style:solid;
+     c-bordor-botom-style:dotted;
+     d-border-left-style:solid;
+     e-border-style: solid dotted
+
+3--Border-width   Cizgi kalınlığı belirtir.
+    a-border-width:"5px"; bütün cizgiler aynı kalınlıkta
+    b-border-width:"medium";
+    c-border-width:"2px 5px 4px 8px  dört kenara ayrı cizgi kalınlığı verir
+
+4--border-color  cizgi rengini belirler.
+
+5--border :5px solid red; vb. kısa şekilde yazabiliriz.
+
+6--border-redius yuvarlık kenarlık ekleme
+       a-border-redius:5px
+-->
+    <div>
+        <p class="solid">solid</p>
+        <p class="dotted">Dotted</p>
+        <p class="dashed">dashed</p>
+        <p class="double">double</p>
+        <p class="groove">groove</p>
+        <p class="ridge">ridge</p>
+        <p class="inset">inset</p>
+        <p class="outset">outset</p>
+        <p class="none">none</p>
+        <p class="hidden">hidden</p>
+        <p class="ayrı">Hello world</p>
+    </div>
+    <div>
+        <p class="one">Normal</p>
+        <p class="two">Medium</p>
+        <p class="tree">4 kenar ayrı</p>
+    </div>
+    <div class="color">Hello world</div>
+    <div>
+        <p class="short">hello world</p>
+
+    </div>
+    <p class="radius">Radius kullanma</p>
+</body>
+
+</html>
