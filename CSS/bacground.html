@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+        div{
+            background-color: darkorchid;
+            color: white;
+
+        }
+        .image{
+            background-image: url("images/images.png");
+        }
+        .repeat{
+            background-image: url("images/images.png");
+            background-repeat: repeat-y;
+        }
+        .position{
+            background-image: url("images/images.png");
+            background-repeat:no-repeat;
+            background-position: right top;
+        }
+       body{
+            background-image: url("images/images.png");
+            background-repeat: no-repeat;
+            background-position: right top;
+            margin-right: 200px;
+            background-attachment:fixed;
+        }
+        .size{
+            background-image: url("images/images.png");
+            
+            background-size: 500px;
+        }
+        .short{
+            background: red  no repeat scroll left;
+        }
+        
+        </style>
+    </head>
+    <body>
+       <!--
+CSS-BACKGROUND
+1-background-color  (arkaplan rengi)       
+2-background-image(arka plan resmi)
+3-background-repeat(arka plan tekrarı)
+    a-   repeat-x(yatay tekrar)
+    b-  repeat-y(dikey tekrar)
+    c-  no-repeat(tekrar yok)
+4-backgorund-attachmant(arka plan resmini kaydırma )
+    a-fixed(sabit ekran resmi)
+    b-scroll(yazıyla birlikte arka plan resmi kayar)
+5-background-position(arka plan posisyonu)
+    a-top(üst)
+    b-down(alt)
+    c-right(sağ)
+    d-left(sol)
+    e- right top(sağ üst)
+    f- left down(sol alt)
+6-background-clip(arka planı kesme kırpma)
+7-background-origin()arka plan orjinal
+8-background-size(arka plan resmi  boyutlandırma)
+9-background( hepsini tek kodda yazma)
+    a-background:blue url( img_tree.png  ) no repeat  right-top  fixed gibi.. sadece değerler yazılır.
+-->
+<h1>BACKGROUND COLOR</h1>
+<div>
+    Lorem Ipsum Nedir?
+    Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. 
+    Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır.
+    1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.
+    </div>  
+<h1>BACKGROUND İMAGE</h1>
+    <div class="image">
+            Lorem Ipsum Nedir?
+            Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.
+    </div>
+  <h2>BACKGORUND REPEAT</h2>
+  <div class="repeat">Lorem Ipsum Nedir?
+        Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.</div>
+      <h3>BACKGROUND POSİTİON</h3>
+      <div class="position">
+            Lorem Ipsum Nedir?
+            Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.
+
+      </div> 
+      <h3>BACKGROUND ATTACHMENT</h3>
+      <div >
+            Lorem Ipsum Nedir?
+            Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. 
+            Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır.
+            1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.
+           
+      </div>
+      <h3>BACKGROUND-SİZE</h3>
+      <div class="size"> Lorem Ipsum Nedir?
+            Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. 
+            Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır.
+            1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.
+           </div>
+        <h3>BACKGROUND</h3>
+
+<div class="short">Lorem Ipsum Nedir?
+        Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. 
+        Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır.
+        1960'larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.</div>
+    </body>
+</html>
