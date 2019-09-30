@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+        div {
+            border: 1px solid red;
+            color: powderblue;
+            text-align: justify;
+            /*sağ ve sola yaslar*/
+            text-indent: 20px;
+            /* paragraf girintisi verir*/
+        }
+        
+        a {
+            text-decoration: none;
+            /*linkin altındaki çizgiyi kaldırır*/
+        }
+        
+        .ex1 {
+            text-transform: uppercase;
+            /*kücük harfi büyük harfe cevirir*/
+        }
+        
+        .ex2 {
+            text-transform: capitalize;
+            /* baş harfi büyük yapar.*/
+        }
+        
+        .ex3 {
+            text-transform: lowercase;
+            /*büyük harfleri kücük yapar.*/
+        }
+        
+        .ex4 {
+            letter-spacing: 5px;
+        }
+        
+        .ex5 {
+            letter-spacing: -1px;
+        }
+        
+        .ex6 {
+            line-height: 5em;
+            /*satırlar arasını belirler.*/
+        }
+        
+        .ex7 {
+            direction: rtl;
+        }
+        
+        .ex8 {
+            word-spacing: 8px;
+            /*iki kelime rasındaki boşluğu belirler*/
+        }
+        
+        h1 {
+            text-shadow: 2px 3px red;
+            /* metne gölge ekler */
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        Nakavt metni , kelimelerin bir elementten çıkarıldığı ve arka planı ortaya çıkardığı bir tekniktir. Başka bir deyişle, yalnızca arka planı görüyorsunuz, çünkü harfler delikler açıyor. Bu çekici, çünkü geleneksel CSS özelliklerinden alamadığımız tipografik
+        stilleri açıyor color.
+    </div>
+    <a href="#">Lİnk1</a>
+    <p class="ex1">hello world</p>
+    <p class="ex2">hello world</p>
+    <p class="ex3">HELLO WORLD</p>
+
+    <p class="ex4">Hello World</p>
+    <p class="ex5">Hello World</p>
+
+    <div class="ex6">
+        Nakavt metni , kelimelerin bir elementten çıkarıldığı ve arka planı ortaya çıkardığı bir tekniktir. Başka bir deyişle, yalnızca arka planı görüyorsunuz, çünkü harfler delikler açıyor. Bu çekici, çünkü geleneksel CSS özelliklerinden alamadığımız tipografik
+        stilleri açıyor color.
+    </div>
+    <p class="ex7">hello world</p>
+    <p class="ex8">Hello world</p>
+
+    <h1>hello world</h1>
+
+    <!--
+1-- Metin "rengi “color ile verilir.
+    a-color:red ;
+2--Metin hizalama “  text-align” ile verilir.
+    a-text-align: center left right  gibi
+    b-text-align:justify      çizgileri, her çizginin eşit genişliğe sahip olması için (gazete ve dergilerdeki gibi) uzatır.
+3--text-decoration   Özelliği ayarlamak veya metinden süslemeleri kaldırmak için kullanılır.  metin süsleme demektir.
+    a- text-decoration: none;    genellikle alt çizgileri bağlantılarıkaldırmak için kullanılır:
+4--letter-spacing    metinde harfler arasındaki boşluğu belirtmek için kullanılır.
+    a-letter-spacing:3px;
+5--line-height    satırlar arasındaki boşluğu belirtmek için kullanılır:
+    a-line-height:2px;
+6--direction   metin yönünü değiştirmek için kullanılır:
+    a-deirection:rtl   sağdan metin yönünü alır
+7--word-spacing  metinde sözcükler arasında boşluğu belirtmek için kullanılır.
+8-- text-shadow    metne gölge ekler.
+    a-text-shadow:2px 3px  red;
+9--text-indent   metnin ilk satırının girinti belirtmek için kullanılır:
+    -->
+</body>
+
+</html>
