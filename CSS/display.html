@@ -19,6 +19,23 @@
             display: black;
             /*inline özellikli  paragraf block özellikli oldu   */
         }
+        
+        ul li {
+            border: 2px solid red;
+            list-style-type: none;
+            display: inline-block;
+            width: 50px;
+            background-color: cadetblue;
+            padding: 10px;
+        }
+        
+        ul,
+        li,
+        a {
+            color: white;
+            text-decoration: none;
+            text-align: center
+        }
     </style>
 </head>
 
@@ -39,15 +56,22 @@
    ◇ <Span>
    ◇ <a>
    ◇ <İmg>
-
-
-
-
-
-
+4--display:inline-block özelliği
+    a-en önemli özelliği width ve height ayarlamaya izin vermesidir.
+    b-paddinglere izin verir
+5--display: inline-block listesi liste öğelerini dikey yerine yatay olarak görüntülemektir. 
     -->
     <div>merhaba dünya</div>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea eius tenetur aliquam autem voluptatem nostrum, corrupti hic repellendus. Nihil doloremque perspiciatis voluptate repudiandae ex corporis esse rerum quos iure vel?</p>
+    <ul>
+        <li>
+            <a href="#">Home</a></li>
+        <li>
+            <a href="#">About</a></li>
+        <li>
+            <a href="#">Contact</a></li>
+
+    </ul>
 </body>
 
 </html>
